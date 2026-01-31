@@ -16,8 +16,8 @@ def view_task(strg):
         
         print("The task list is empty, Add some tasks first.")
     for key, value in strg.items():
-        print(f"Task: {key.capitalize()}\nDate: {value["Deadline"]}\nStatus: {value["Status"]}")`   `
-0
+        print(f"Task: {key.capitalize()}\nDate: {value["Deadline"]}\nStatus: {value["Status"]}")
+
     again()
     
 
